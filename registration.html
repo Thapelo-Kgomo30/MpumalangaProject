@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mpumalanga Tourism - Registration</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="thapzi.css">
+</head>
+
+<body class="registration-page">
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Registration</h1>
+
+        <p>
+            Provide us with information about yourself in the form below:
+        </p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="topnav">
+        <a href="Home.html">Home and Gallery</a>
+        <a href="Population&Climate.html">Population and Climate</a>
+        <a href="Contact-Us.html">Contact Us</a>
+        <a href="registration.html">Registration</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="row">
+
+        <!-- Left Sidebar -->
+        <aside class="column side">
+
+            <h2>What to Expect:</h2>
+
+            <ul>
+                <li>God's Window</li>
+                <li>Lisbon Falls</li>
+                <li>Mountains</li>
+                <li>Blyde Canyon</li>
+            </ul>
+
+        </aside>
+
+        <!-- Registration Form Section -->
+        <section class="column middle">
+
+            <article>
+
+                <h2>Registration Form</h2>
+
+                <form>
+
+                    <fieldset>
+
+                        <legend>Fill in the information required below</legend>
+
+                        <!-- Name -->
+                        <p>
+                            <label for="name"><strong>Name:</strong></label><br>
+
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   maxlength="40">
+                        </p>
+
+                        <!-- Surname -->
+                        <p>
+                            <label for="surname"><strong>Surname:</strong></label><br>
+
+                            <input type="text"
+                                   id="surname"
+                                   name="surname"
+                                   maxlength="40">
+                        </p>
+
+                        <!-- Password -->
+                        <p>
+                            <label for="password"><strong>Password:</strong></label><br>
+
+                            <input type="password"
+                                   id="password"
+                                   name="password"
+                                   maxlength="40">
+                        </p>
+
+                        <!-- Gender -->
+                        <fieldset>
+
+                            <legend><strong>Gender</strong></legend>
+
+                            <input type="radio"
+                                   id="male"
+                                   name="gender"
+                                   value="Male">
+
+                            <label for="male">Male</label>
+
+                            <input type="radio"
+                                   id="female"
+                                   name="gender"
+                                   value="Female">
+
+                            <label for="female">Female</label>
+
+                        </fieldset>
+
+                        <br>
+
+                        <!-- Address -->
+                        <p>
+                            <label for="address">
+                                <strong>Address:</strong>
+                            </label><br>
+
+                            <textarea id="address"
+                                      name="address"
+                                      cols="30"
+                                      rows="5"></textarea>
+                        </p>
+
+                        <!-- Menu -->
+                        <p>
+                            <label for="menu">
+                                <strong>Menu:</strong>
+                            </label><br>
+
+                            <select id="menu" name="menu">
+
+                                <option value="choose-any">
+                                    Choose Any
+                                </option>
+
+                                <option value="englishfood">
+                                    English Dish
+                                </option>
+
+                                <option value="chinesefood">
+                                    Chinese Dish
+                                </option>
+
+                                <option value="traditionalfood">
+                                    Traditional Dish
+                                </option>
+
+                                <option value="homecookedfood">
+                                    Home Cooked Dish
+                                </option>
+
+                                <option value="seafood">
+                                    Sea Dish
+                                </option>
+
+                                <option value="indianfood">
+                                    Indian Dish
+                                </option>
+
+                            </select>
+                        </p>
+
+                        <!-- Brochure -->
+                        <p>
+
+                            <input type="checkbox"
+                                   id="brochure"
+                                   name="brochure">
+
+                            <label for="brochure">
+                                Do you want a brochure?
+                            </label>
+
+                        </p>
+
+                        <!-- Kids -->
+                        <p>
+
+                            <input type="checkbox"
+                                   id="kids"
+                                   name="kids">
+
+                            <label for="kids">
+                                Do you have kids?
+                            </label>
+
+                        </p>
+
+                        <!-- Additional Information -->
+                        <p>
+
+                            <label for="addinfo">
+                                <strong>Additional Information:</strong>
+                            </label><br>
+
+                            <textarea id="addinfo"
+                                      name="addinfo"
+                                      cols="30"
+                                      rows="5"></textarea>
+
+                        </p>
+
+                        <!-- Buttons -->
+                        <p>
+
+                            <button type="submit">
+                                Submit
+                            </button>
+
+                            <button type="reset">
+                                Reset
+                            </button>
+
+                        </p>
+
+                    </fieldset>
+
+                </form>
+
+            </article>
+
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="column side">
+
+            <h2>What to Bring:</h2>
+
+            <ol>
+                <li>Umbrellas</li>
+                <li>Raincoats</li>
+                <li>Sunglasses</li>
+                <li>Sunhats</li>
+            </ol>
+
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; Mpumalanga Tourism</p>
+    </footer>
+
+</body>
+
+</html>
